@@ -24,5 +24,4 @@ script:
   - sudo ln -s /usr/bin/g++-8 /usr/local/bin/g++
   - mkdir -p .build
   - cd .build
-  - cmake .. -DBUILD_TESTS=On
-  - cmake --build .
+
